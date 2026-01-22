@@ -1,4 +1,4 @@
-#Author: Marko Solajic
+// Author: Marko Solajic
 
 #include <cs50.h>
 #include <stdio.h>

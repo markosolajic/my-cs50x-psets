@@ -1,0 +1,15 @@
+Author: Marko Solajic
+
+I calculated the average energy of the songs for this listener to be 0.65906,
+the average valence to be 0.484443, and the average danceability to be 0.71646.
+Based on my calculations, the listener's audio aura can be characterized as energetic and highly danceable,
+yet carrying a somewhat sad or moody undertone due to the lower valence score.
+This suggests they enjoy rhythmic, high-tempo music that might be emotionally intense
+rather than purely cheerful.
+
+However, this calculation might not be truly representative of the listener.
+A simple average treats a song played 200 times the exact same as a song played only 5 times.
+Additionally, if the listener fell asleep with a specific playlist on repeat,
+those tracks would skew the data. A better way of calculating
+this would probably be to include the total plays of individual songs and perhaps filtering out the
+extreme values by using MIN() and MAX().
